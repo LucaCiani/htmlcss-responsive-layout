@@ -1,0 +1,72 @@
+@media screen and (min-width:768px) {
+
+    header{
+        text-align: start;
+        padding-left: 20px;
+    }
+
+    h3 > span{
+        display: block;
+    }
+
+    iframe{
+        height: 400px;
+    }
+
+    .tiramisu-notes > ul{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 3rem;
+    }
+
+    .social .social-buttons{
+        padding: 10px 50px;
+    }
+
+    .banner{
+        display: block;
+        width: 100%;
+    }
+
+    .presentation{
+        display: block;
+    }
+
+    .presentation .tiramisu-img{
+        float: left;
+        margin-right: 10px;
+    }
+}
+
+@media screen and (min-width:992px) {
+    
+    .main-header{
+        display: flex;
+    }
+    
+    .main-header iframe{
+        width: 60%;
+    }
+
+    .tiramisu-notes{
+        width: 40%;
+    }
+
+    .tiramisu-notes > ul{
+        display: block;
+    }
+
+    .social .social-buttons{
+        padding: 10px 20px;
+    }
+
+    .social .social-name{
+        display: inline;
+        font-weight: bold;
+    }
+
+    footer{
+        display: flex;
+        justify-content: space-between;
+    }
+}

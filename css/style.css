@@ -31,11 +31,15 @@ main{
 .tiramisu-box{
     line-height: 2rem;
     padding: 20px 0;
-    
-    h3{
-        color: #4e3969;
-        font-size: 2rem;
-        padding: 15px 0;
+}
+
+h3{
+    color: #4e3969;
+    font-size: 2rem;
+    padding: 15px 0;
+
+    span{
+        display: none;
     }
 }
 
